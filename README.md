@@ -52,7 +52,7 @@ Enter this command
 ```ruby
 sbt:Aghaas-Core> testOnly Datapath.TopFileTest -- -DwriteVcd=1
 ```
-After success you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top-File_Test folder inside.\
+After success you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top_File_Test folder inside.\
 There, you will find a file named TopFile.vcd, double click it and visualise on **gtkwave** to\
 see your program running.
 
