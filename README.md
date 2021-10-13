@@ -1,11 +1,11 @@
 # Aghaas-Core
 
-### Introduction To Aghaas-Core
+## Introduction To Aghaas-Core
 
 ### Designed by Agha Muqarib
 I'm in my senior year currently pursuing bachelors in software engineering at [Usman Institute of Technology, Pakistan.](https://www.uit.edu/). Being a trainee @ [Micro Electronics Research Lab](https://github.com/merledu), I've designed a parameterized RISC-V 32-bit Single Cycle Core(supporting I Type) using functional programming in Scala and Chisel.
 
-## First of all get started by Cloning this repository in your machine
+### First of all get started by Cloning this repository in your machine
 ```ruby
 git clone https://github.com/Agha-Muqarib/Aghaas-Core.git
 ```
@@ -23,7 +23,7 @@ Each instruction's hexadecimal code must be on seperate line as following. The f
 00310233
 00008067
 ```
-## Then perform the following step
+### Then perform the following step
 ```ruby
 cd Aghaas-Core/src/main/scala/Datapath
 ```
