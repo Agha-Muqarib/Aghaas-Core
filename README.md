@@ -1,5 +1,6 @@
 # Aghaas-Core
-### Introduction To Our Single-Cycle Core
+
+### Introduction To Aghaas-Core
 
 ### Designed by Agha Muqarib
 I'm in my senior year currently pursuing bachelors in software engineering at [Usman Institute of Technology, Pakistan.](https://www.uit.edu/). Being a trainee @ [Micro Electronics Research Lab](https://github.com/merledu), I've designed a parameterized RISC-V 32-bit Single Cycle Core(supporting I Type) using functional programming in Scala and Chisel.
@@ -51,12 +52,8 @@ Enter this command
 ```ruby
 sbt:Aghaas-Core> testOnly Datapath.TopFileTest -- -DwriteVcd=1
 ```
-After you get success
-```ruby
-sbt:Aghaas-Core> test:runMain datapath.Launcher Top --backend-name verilator
-```
-After success you will get a folder naming ***test_run_dir*** on root of your folder. Go to the examples folder inside.\
-There you will find the folder named Top. Enter in it and you can find the Top-File.vcd file which you visualise on **gtkwave** to\
+After success you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top-File_Test folder inside.\
+There, you will find a file named TopFile.vcd, double click it and visualise on **gtkwave** to\
 see your program running.
 
 
