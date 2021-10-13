@@ -31,8 +31,8 @@ trait Config {
 
 //  Alu
 
-    val in_out_Width = 32
-    val AluCtrl = 5
+    val ioType = SInt(32.W)
+    val AluCtrlWidth = 5
 
 //  Imm Gen
 
