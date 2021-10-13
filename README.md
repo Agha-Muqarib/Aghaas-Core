@@ -9,8 +9,8 @@ I'm in my senior year currently pursuing bachelors in software engineering at [U
 git clone https://github.com/Agha-Muqarib/Aghaas-Core.git
 ```
 
-Create a .txt file and place the instruction(Hexa-Decimal) code simulated on ***Venus*** (RISC-V Simulator)\
-Each instruction's hexadecimal code must be on seperate line as following. The following program consists of 9 instructions.
+Open  "instrFile.txt" file and place the instruction(Hexa-Decimal) code simulated on ***Venus*** (RISC-V Simulator)\
+Each instruction's hexadecimal code must be on seperate line as following. The following is a sample program containing 9 instructions.
 ```
 00500113
 00500193
@@ -34,7 +34,7 @@ Find the following line
 ``` python
 val initFile = "Some Path to txt file"
 ```
-Change the .txt file path to match your file name that you created above to store your own program instructions.\
+Update the .txt file path to match your "instrFile.txt" that you updated above to store your own program instructions.\
 After setting up the Config.scala file, go inside the ***Aghaas-Core*** folder.
 ```ruby
 cd Aghaas-Core
