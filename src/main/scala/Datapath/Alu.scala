@@ -3,18 +3,20 @@ package Datapath
 import chisel3._
 import chisel3.util._
 
-class AluIO(in_out_Width:Int,AluCtrl:Int) extends Bundle{
+class AluIO(inOutType:SInt,AluCtrl:Int) extends Bundle{
 
     val AluControl = Input(UInt(AluCtrl.W))
-	val in1 = Input(SInt(in_out_Width.W))
-	val in2 = Input(SInt(in_out_Width.W))
+	val in1 = Input(inOutType)
+	val in2 = Input(inOutType)
 	val Branch = Output(Bool())
-	val out = Output(SInt(in_out_Width.W))
+	val out = Output(inOutType)
 }
 
 class Alu extends Module with Config {
 
-    val io = IO(new AluIO(WLEN,AluCtrl))
+    val io = IO(new AluIO(ioType,AluCtrlWidth))
+
+	io.out := 0.S
 
 	//Add Addi
 	when (io.AluControl === "b00000".U){io.out := io.in1 + io.in2}
@@ -34,8 +36,8 @@ class Alu extends Module with Config {
 	.elsewhen (io.AluControl === "b11111".U){io.out := io.in1}
 	//Bge
 	.elsewhen (io.AluControl === "b10101".U){
-		when (io.in1 >= io.in2){io.out := 1.S}
-		.otherwise {io.out := 0.S}}
+		when (io.in1 >= io.in2){io.out := 1.S}}
+		// .otherwise {io.out := 0.S}}
 	//Bgeu
 	.elsewhen (io.AluControl === "b10111".U){
 		when (io.in1.asUInt >= io.in2.asUInt){io.out := 1.S}
@@ -54,9 +56,19 @@ class Alu extends Module with Config {
 		.otherwise {io.out := 0.S}}
 	//Bne
 	.elsewhen (io.AluControl === "b10001".U){
-		when (io.in1 =/= io.in2){io.out := 1.S}
-		.otherwise {io.out := 0.S}}
-	.otherwise {io.out := DontCare}
+
+		when (io.in1 =/= io.in2){
+			io.out := 1.S
+		}
+		
+		.otherwise {
+			io.out := 0.S
+			}
+		}
+
+	.otherwise {
+		io.out := DontCare
+	}
 
 	//Branch
 
