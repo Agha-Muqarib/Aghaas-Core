@@ -36,7 +36,7 @@ sbt:Aghaas-Core>
 Aghaas-Core/src/main/scala/Datapath
 ```
 
-Open  "instrFile.txt" file and place the instruction(Hexa-Decimal) code simulated on ***Venus*** (RISC-V Simulator)\
+Open  "instrFile.txt" file and place the instruction(Hexa-Decimal) code simulated on ***Venus*** (RISC-V Simulator)
 Each instruction's hexadecimal code must be on seperate line as following. The following is a sample program containing 9 instructions.
 ```
 00500113
@@ -65,7 +65,6 @@ The result will look like this:
 ![image](https://user-images.githubusercontent.com/51242857/137596689-ddd16462-3a85-4979-93d2-011241a1a856.png)
 
 After success, you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top_File_Test folder inside.\
-There, you will find a file named TopFile.vcd, double click it and visualise on **[GTKwave](https://sourceforge.net/projects/gtkwave/)** to\
-see your program running.
+There, you will find a file named TopFile.vcd, double click it and visualise on **[GTKwave](https://sourceforge.net/projects/gtkwave/)** to see your program running.
 
 
