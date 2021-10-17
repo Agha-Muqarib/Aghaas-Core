@@ -65,7 +65,7 @@ The result will look like this:
 ![image](https://user-images.githubusercontent.com/51242857/137596689-ddd16462-3a85-4979-93d2-011241a1a856.png)
 
 After success, you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top_File_Test folder inside.\
-There, you will find a file named TopFile.vcd, double click it and visualise on **GTKwave** to\
+There, you will find a file named TopFile.vcd, double click it and visualise on **[GTKwave](https://sourceforge.net/projects/gtkwave/)** to\
 see your program running.
 
 
