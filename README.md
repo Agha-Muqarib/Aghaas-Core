@@ -67,6 +67,9 @@ The result will look like this:
 After success, you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top_File_Test folder inside.\
 There, you will find a file named TopFile.vcd, double click it and visualise on **[GTKwave](https://sourceforge.net/projects/gtkwave/)** to see your program running.
 
-**P.S: The Datapath directory also contains a file named VenusInstr.txt which contains Assembly Instructions that can be utilized as a demo or for unit testing of each instruction type. The directory also contains InstrDetails.txt file having the equivalent machine code of the instructions in Venus File, obtained by dumping them on Venus Simulator.** 
+-------------------------------------------------------------------------
+
+
+**P.S:** ***The Datapath directory also contains a file named VenusInstr.txt which contains Assembly Instructions that can be utilized as a demo or for unit testing of each instruction type. The directory also contains InstrDetails.txt file having the equivalent machine code of the instructions in Venus File, obtained by dumping them on Venus Simulator.***
 
 
