@@ -1,4 +1,4 @@
-# Aghaas-Core
+<h1 align="center"> Aghaas-Core </h1>
 
 ## Introduction To Aghaas-Core
 
