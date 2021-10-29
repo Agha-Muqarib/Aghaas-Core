@@ -7,7 +7,7 @@
 
 I'm in my senior year currently pursuing bachelors in software engineering at [Usman Institute of Technology, Pakistan.](https://www.uit.edu/) Being a trainee @ [Micro Electronics Research Lab](https://github.com/merledu), I've designed a parameterized RISC-V 32-bit Single Cycle Core(supporting I Type) using functional programming in Scala and Chisel.
 
-First of all get started by Cloning this repository in your machine
+First of all, get started by Cloning this repository in your machine
 ```ruby
 https://github.com/Agha-Muqarib/Aghaas-Core.git
 ```
