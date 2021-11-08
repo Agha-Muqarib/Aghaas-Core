@@ -1,7 +1,7 @@
 <h1 align="center"> Aghaas-Core </h1>
 
 
-## Introduction To Aghaas-Core
+## Introduction To Aghaas-Core:
 
 ### Designed by Agha Muqarib
 
