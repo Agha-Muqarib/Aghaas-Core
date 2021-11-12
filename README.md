@@ -22,12 +22,12 @@ And enter
 sbt
 ```
 
-The result will look like this
+The result will look like this:
 
 ![image](https://user-images.githubusercontent.com/51242857/137596628-4a009c08-7c00-4ab9-9b5a-4209f5a89005.png)
 
 
-and the terminal will change to this type as shown in the image above
+and the terminal will change to this type as shown in the image above.
 ```ruby
 sbt:Aghaas-Core>
 ```
