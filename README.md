@@ -3,7 +3,7 @@
 
 ## Introduction To Aghaas-Core:
 
-### Designed by Agha Muqarib
+### "Designed by Agha Muqarib"
 
 I'm in my senior year currently pursuing bachelors in software engineering @ [Usman Institute of Technology, Pakistan.](https://www.uit.edu/) Being a trainee @ [Micro Electronics Research Lab](https://github.com/merledu), I've designed a parameterized, RISC-V, 32-bit, Single Cycle Core(supporting I Type) using Functional Programming in Scala and Chisel.
 
