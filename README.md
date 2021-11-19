@@ -12,7 +12,7 @@ First of all, get started by Cloning this repository in your machine using the c
 https://github.com/Agha-Muqarib/Aghaas-Core.git
 ```
 
-Navigate to ***Aghaas-Core*** directory as
+Navigate to ***Aghaas-Core*** directory as:
 ```ruby
 cd Aghaas-Core
 ```
