@@ -1,3 +1,5 @@
+MachineCode    Instruction
+--------------------------
 00400613        - addi
 000286b3        - add
 00161713        - slli
