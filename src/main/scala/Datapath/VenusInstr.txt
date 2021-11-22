@@ -1,3 +1,5 @@
+Instruction                Status
+----------------------------------
 addi x12 x0 4               - P
 add x13 x5 x0               - P
 slli x14 x12 1              - P
