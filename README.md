@@ -17,7 +17,7 @@ Navigate to ***Aghaas-Core*** directory as:
 cd Aghaas-Core
 ```
 
-And enter
+And enter:
 ```ruby
 sbt
 ```
