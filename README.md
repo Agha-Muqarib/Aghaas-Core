@@ -32,7 +32,7 @@ The terminal will change to this type as shown in the image above.
 sbt:Aghaas-Core>
 ```
 
-Navigate to Datapath Directory via
+Navigate to Datapath Directory via:
 
 ```
 Aghaas-Core/src/main/scala/Datapath
