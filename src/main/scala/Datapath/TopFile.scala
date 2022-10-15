@@ -12,7 +12,7 @@ class TopFile extends Module {
     val io = IO (new TopIO) 
 	
 	val alu = Module(new Alu)
-    val aluControl = Module(new AluControl)
+        val aluControl = Module(new AluControl)
 	val control = Module(new Control)
 	val dataMemory = Module(new DataMem)
 	val ImmediateGeneration = Module(new ImmGen)
